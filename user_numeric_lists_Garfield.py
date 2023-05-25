@@ -25,7 +25,7 @@ logger, logname = setup_logger(__file__)
 # weight of Sparky the dog over last 24 months (he's a large dog)
 list_1 = [96, 97, 96, 94, 96, 97, 99, 95, 96, 93, 99, 100, 99, 97, 98, 99, 96, 95, 94, 94, 95, 93, 94, 93]
 
-# univariant time series data (one varabile over time)
+# univariant time series data (one variable over time)
 # x = month of year
 # y = days in each month
 list_x = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12]
@@ -34,7 +34,7 @@ list_y = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 # Define functions ........................................
 
 
-def list_statitics():
+def list_statistics():
     """This function illustrates descriptive statistics for a numeric list."""
 
     logger.info(f"Lists 1. List Statistics")
@@ -49,7 +49,7 @@ def list_statitics():
 
     logger.info(f"The mean or average of Sparky's weights over the last 24 months is: {mean:.2f}.")
     logger.info(f"The median or middle value of Sparky's weights over the last 24 months is: {median:.2f}.")
-    logger.info(f"The mode or most commonly occuring of Sparky's weights is: {mode}.")
+    logger.info(f"The mode or most commonly occurring of Sparky's weights is: {mode}.")
 
     stdev = statistics.stdev(list_1)
     variance = statistics.variance(list_1)
@@ -194,14 +194,14 @@ def list_transformations():
     # Transformation - filter() and map() - critical for big data processes that must scale!
 
     # Use the built in filter() function to keep x such that x is less than 4 (or some other cutoff), or keep the even ones, whatever.
-    # Use the built in map() function to map each x to cuberoot of x (hint: use math module)
+    # Use the built in map() function to map each x to cube root of x (hint: use math module)
     # Use the built in map() function to calculate the volume of a cube with a side equal to the value in your list. Hint: Volume = side * side * side
     
     # Use the built in filter() function to keep x such that x is less than 4 (or some other cutoff), or keep the even ones, whatever.
     weights_over_97 = list(filter(lambda x: (x > 97), list_1))
     logger.info(f"These were Sparky's weigh-ins over 97 lbs: {weights_over_97}.")
 
-    # Use the built in map() function to map each x to cuberoot of x (hint: use math module)
+    # Use the built in map() function to map each x to cube root of x (hint: use math module)
     cuberoot_weights = list(map(lambda x: (round(x ** (1/3), ndigits=2)), list_1))
     logger.info(f"If we take the cube root of each weigh in, we get: {cuberoot_weights}")
 
