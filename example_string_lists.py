@@ -39,28 +39,27 @@ list_adjectives = ["happy", "sad", "angry", "scared", "confused", "bored"]
 # Define a list of adverbs
 list_adverbs = ["quickly", "slowly", "happily", "sadly", "angrily", "scaredly"]
 
-
 def process_text_woodchuck():
     """Read in text_woodchuck.txt and process it"""
     logger.info("Calling process_text_woodchuck()")
 
     # read in woodchuck to get a list of words
-    with open("text_woodchuck.txt", "r") as fileObject:
-        text = fileObject.read()
-        list_words = text.split()  # split on whitespace
-        unique_words = set(list_words)  # remove duplicates by making a set
+with open("text_woodchuck.txt", "r") as fileObject:
+    text = fileObject.read()
+    list_words = text.split()  # split on whitespace
+    unique_words = set(list_words)  # remove duplicates by making a set
 
-        # Get the count and list of words
-        word_ct = len(list_words)
+    # Get the count and list of words
+    word_ct = len(list_words)
 
-        logger.info(f"The list of words is: {list_words}")
-        logger.info(f"There are {word_ct} words in the file.")
+    logger.info(f"The list of words is: {list_words}")
+    logger.info(f"There are {word_ct} words in the file.")
 
-        # Print the count and list of unique words
-        unique_word_ct = len(unique_words)
+    # Print the count and list of unique words
+    unique_word_ct = len(unique_words)
 
-        logger.info(f"The set of unique words is: {unique_words}")
-        logger.info(f"There are {unique_word_ct} unique words in the file.")
+    logger.info(f"The set of unique words is: {unique_words}")
+    logger.info(f"There are {unique_word_ct} unique words in the file.")
 
 
 def create_random_sentence():
@@ -149,7 +148,7 @@ def show_log():
 if __name__ == "__main__":
     logger.info("Calling functions from main block")
 
-    process_text_woodchuck()
+   # process_text_woodchuck()
     create_random_sentence()
     create_random_sentence()
     play_game()
