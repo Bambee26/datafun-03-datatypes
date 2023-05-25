@@ -242,7 +242,7 @@ if __name__ == "__main__":
     logger.info("Project 3 - Numeric Lists ")
 
     # call your functions here (see instructions)
-    list_statitics()
+    list_statistics()
     list_correlation_prediction()
     list_built_in_functions()
     list_methods()
