@@ -1,5 +1,5 @@
 """
-Author: BAmbee Garfield
+Author: Bambee Garfield
 Course: 44-609-80 Data Analytics Fundamentals Summer OP1 2023
 Purpose: Module 3 - Numeric Series
 
