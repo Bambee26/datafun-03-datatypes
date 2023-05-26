@@ -73,7 +73,10 @@ def process_text():
     # How good is your list? 
 
     # read in woodchuck to get a list of words
-    with open("text_dogstory.txt", "r") as fileObject:
+
+    logger.info('\n')
+    logger.info(f"String Lists 3: Get Unique Words")
+    with open("text_hamlet.txt", "r") as fileObject:
         text = fileObject.read()
         list_words = text.split()  # split on whitespace
         unique_words = set(list_words)  # remove duplicates by making a set
@@ -101,7 +104,8 @@ def show_log():
 # Remember, code blocks must be indented consistently after a colon.
 
 if __name__ == "__main__":
-    logger.info("Calling functions from main block")
+    logger.info(f"Below are the functions created for Module 3: Task 4")
+    logger.info('\n')
 
     process_py_functions()
     create_tuple()
