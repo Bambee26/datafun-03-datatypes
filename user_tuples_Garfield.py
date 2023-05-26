@@ -68,17 +68,12 @@ def illustrate_tuples():
 
     # Use tuples to return multiple values from a function
 
-    def divide_and_remainder(dividend, divisor):
-        quotient = dividend // divisor
-        remainder = dividend % divisor
-        return quotient, remainder
-
-    q, r = divide_and_remainder(10, 3)
-    logger.info(f"Quotient: {q}, Remainder: {r}")
-
 
 def illustrate_sets():
     """This function illustrates sets in Python."""
+
+    logger.info('\n')
+    logger.info(f"EXAMPLES OF SETS")
 
     setA = {1, 2, 3, 4, 5}
     setB = {4, 5, 6, 7, 8}
@@ -95,34 +90,35 @@ def illustrate_sets():
     # set difference
     setE = setA - setB
 
+    logger.info(f"Let's show the possibilities with sets. Union: setA | setB = {setC}")
+    logger.info(f"Intersection of setA & setB = {setD}")
+    logger.info(f"Difference between setA - setB = {setE}")
+    
     # sets are often used to remove duplicates from a list
     # after gettin the set, convert it back to a list with list() or []
-    listWords = ["apple", "banana", "apple", "pear", "banana", "orange"]
+    listWords = ["dog", "cat", "bird", "horse", "dog", "lizard"]
     setWords = set(listWords)
     listWordsNoDuplicates = list(setWords)
     listWordsNoDuplicates = [setWords]  # same as above
 
+    logger.info(f"This is the original set: {listWords}")
+    logger.info(f"This is a set example with no duplicates: {listWordsNoDuplicates}.")
 
 def illustrate_dictionaries():
     """This function illustrates dictionaries in Python."""
 
-    dogA_dict = {"name": "Rex", "age": 2, "weight_kg": 13.4}
-    dogB_dict = {"name": "Fido", "age": 3, "weight_kg": 15.2}
+    logger.info('\n')
+    logger.info(f"DICTIONARY EXAMPLES")
 
-    logger.info(f"dogA_dict = {dogA_dict}")
-    logger.info(f"dogB_dict = {dogB_dict}")
+    dog_dict = {"Honey": "age 8", "Archie": "age 2"}
 
-    assessment_dict = {"low": 0, "medium": 1, "high": 2}
-    logger.info(f"assessment_dict = {assessment_dict}")
+    logger.info(f"My dogs in my Dog Dictionary = {dog_dict}.")
 
-    data_dict = {
-        "name": ["Alice", "Bob", "Charlie", "David"],
-        "age": [25, 30, 35, 40],
-        "income": [50000, 60000, 70000, 80000],
-    }
-    logger.info(f"data_dict = {data_dict}")
+    dog_dict["Venus"] = "age 8"
 
-    """# In data anlytics, dictionaries may be used to store and manipulate
+    logger.info(f"Updated dog dictionary = {dog_dict}")
+
+"""# In data anlytics, dictionaries may be used to store and manipulate
     # tabular data, e.g. from database records or Excel rows.
 
     # Dictionaries can be used to store and aggregate statistical data,
@@ -174,7 +170,4 @@ if __name__ == "__main__":
     illustrate_sets()
     illustrate_dictionaries()
 
-    logger.info("Add more logging statements to the code to see what happens.")
-    logger.info("Explore enough to understand.")
-    logger.info("Apply these skills to your own topic domain.")
     show_log()
