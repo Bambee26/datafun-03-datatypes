@@ -239,7 +239,8 @@ def show_log():
 
 # -------------------------------------------------------------
 if __name__ == "__main__":
-    logger.info("Project 3 - Numeric Lists ")
+    logger.info(f"Below are the functions created for Module 3: Task 3")
+    logger.info('\n')
 
     # call your functions here (see instructions)
     list_statistics()

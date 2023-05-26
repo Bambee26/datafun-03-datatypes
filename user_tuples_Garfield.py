@@ -163,7 +163,8 @@ def show_log():
 # Remember, code blocks must be indented consistently after a colon.
 
 if __name__ == "__main__":
-    logger.info("Calling functions from main block")
+    logger.info(f"Below are the functions created for Module 3: Task 5")
+    logger.info('\n')
 
     # call your functions here
     illustrate_tuples()
