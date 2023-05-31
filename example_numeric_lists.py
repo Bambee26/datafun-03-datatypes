@@ -21,7 +21,7 @@ from util_datafun_logger import setup_logger
 # Call the setup_logger function
 logger, logname = setup_logger(__file__)
 
-# Define shared data ..........................................
+# Define shared data 
 
 # define a variable with some univariant data
 # (one varabile, many readings)
