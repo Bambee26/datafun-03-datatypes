@@ -1,0 +1,14 @@
+2023-05-26 14:22:45,096 Below are the functions created for Module 3: Task 4
+2023-05-26 14:22:45,096 
+
+2023-05-26 14:22:45,096 String Lists 1. Using Python Built-in Functions 
+2023-05-26 14:22:45,096 There are 6 dogs on the dog list.
+2023-05-26 14:22:45,096 The dogs are ['Honey', 'Venus', 'Duke', 'Harlow', 'Archie', 'Venus'].
+2023-05-26 14:22:45,096 The combined list of dog and cats breeds are: (['Pitbull', 'Frenchie', 'Great Dane', 'Mutt', 'German Shepard', 'Bulldog'], ['Siamese', 'Shorthair', 'Persian', 'Maine Coon', 'Bengal']) 
+2023-05-26 14:22:45,096 
+
+2023-05-26 14:22:45,096 String Lists 2. Random Choice
+2023-05-26 14:22:45,096 {"The dog named Harlow is a Mutt. He's really good at Rollover. Then there is the cat. His name is Oliver and he is a Siamese. He does not do tricks."}
+2023-05-26 14:22:45,096 
+
+2023-05-26 14:22:45,096 Lists 3: Get Unique Words

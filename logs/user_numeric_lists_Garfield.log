@@ -1,0 +1,54 @@
+2023-05-26 14:23:37,316 Below are the functions created for Module 3: Task 3
+2023-05-26 14:23:37,317 
+
+2023-05-26 14:23:37,317 Lists 1. List Statistics
+2023-05-26 14:23:37,317 The list of Sparky's weights is: [96, 97, 96, 94, 96, 97, 99, 95, 96, 93, 99, 100, 99, 97, 98, 99, 96, 95, 94, 94, 95, 93, 94, 93].
+2023-05-26 14:23:37,321 The mean or average of Sparky's weights over the last 24 months is: 96.04.
+2023-05-26 14:23:37,321 The median or middle value of Sparky's weights over the last 24 months is: 96.00.
+2023-05-26 14:23:37,321 The mode or most commonly occurring of Sparky's weights is: 96.
+2023-05-26 14:23:37,321 The standard deviation of Sparky's weights is: 2.14.
+2023-05-26 14:23:37,321 The variance (or squared differences from the mean) of Sparky's weights is: 4.56.
+2023-05-26 14:23:37,321 
+
+2023-05-26 14:23:37,321 Lists 2. Lists - Correlation and Prediction
+2023-05-26 14:23:37,321 X is the list of months. It is: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12].
+2023-05-26 14:23:37,322 Y are the number of days in each month. It is: [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31].
+2023-05-26 14:23:37,322 The correlation between x and y is 0.27.
+2023-05-26 14:23:37,322 The equation of the best fit line is: y = 0.07x + 29.98.
+2023-05-26 14:23:37,322 We predict that when x = 180.00, y will be about 41.94.
+2023-05-26 14:23:37,322 
+
+2023-05-26 14:23:37,322 Lists 3. Lists - Using Python Built-in Functions
+2023-05-26 14:23:37,322 The highest Sparky's weight was: 100.
+2023-05-26 14:23:37,322 The lowest Sparky weighed was: 93.
+2023-05-26 14:23:37,322 There are 24 number of weigh-ins on this list.
+2023-05-26 14:23:37,322 If we add all of Sparky's weigh-ins together, the sum is 2305.
+2023-05-26 14:23:37,322 Over the last 24 months, Sparky's average weight was 96.04.
+2023-05-26 14:23:37,322 Sparky's goal weight: {'lbs', 94}
+2023-05-26 14:23:37,322 If we sort all of Sparky's weights in order from lowest to highest: [93, 93, 93, 94, 94, 94, 94, 95, 95, 95, 96, 96, 96, 96, 96, 97, 97, 97, 98, 99, 99, 99, 99, 100].
+2023-05-26 14:23:37,322 If we sort the weights from highest to lowest: [100, 99, 99, 99, 99, 98, 97, 97, 97, 96, 96, 96, 96, 96, 95, 95, 95, 94, 94, 94, 94, 93, 93, 93].
+2023-05-26 14:23:37,322 
+
+2023-05-26 14:23:37,322 Lists 4. List Methods
+2023-05-26 14:23:37,322 If we append our month's list with 13, we get [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13].
+2023-05-26 14:23:37,322 We can also combine that list with a new list of 14, 15 and 16 to get: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16].
+2023-05-26 14:23:37,322 We can insert a new value of 42 to the list to get [42, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16].
+2023-05-26 14:23:37,322 Now we'll remove the 42 because it doesn't fit this list and we get: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16].
+2023-05-26 14:23:37,322 Back to Sparky's list. The number 97 appears in the weight list 3 times.
+2023-05-26 14:23:37,322 The weights in ascending order are None.
+2023-05-26 14:23:37,322 The weights in descending order are None.
+2023-05-26 14:23:37,322 Sparky's new weight list is: [100, 99, 99, 99, 99, 98, 97, 97, 97, 96, 96, 96, 96, 96, 95, 95, 95, 94, 94, 94, 94, 93, 93, 93].
+2023-05-26 14:23:37,322 Popped the first (index=0): 100 and now, the weights are: [99, 99, 99, 99, 98, 97, 97, 97, 96, 96, 96, 96, 96, 95, 95, 95, 94, 94, 94, 94, 93, 93, 93].
+2023-05-26 14:23:37,322 Popped the last item: 93 and now, the weights are: [99, 99, 99, 99, 98, 97, 97, 97, 96, 96, 96, 96, 96, 95, 95, 95, 94, 94, 94, 94, 93, 93].
+2023-05-26 14:23:37,322 
+
+2023-05-26 14:23:37,322 Lists 5. List Transformations - Using filter() and map()
+2023-05-26 14:23:37,322 These were Sparky's weigh-ins over 97 lbs: [100, 99, 99, 99, 99, 98].
+2023-05-26 14:23:37,322 If we take the cube root of each weigh in, we get: [4.64, 4.63, 4.63, 4.63, 4.63, 4.61, 4.59, 4.59, 4.59, 4.58, 4.58, 4.58, 4.58, 4.58, 4.56, 4.56, 4.56, 4.55, 4.55, 4.55, 4.55, 4.53, 4.53, 4.53]
+2023-05-26 14:23:37,322 Using the numbers of days each month (list_y) as side lengths, calulate the volume of a cube: [29791, 21952, 29791, 27000, 29791, 27000, 29791, 29791, 27000, 29791, 27000, 29791]
+2023-05-26 14:23:37,323 
+
+2023-05-26 14:23:37,323 Lists 6. List Transformations - Using List Comprehension
+2023-05-26 14:23:37,323 Sparky's weigh-ins that were under 97 lbs: [96, 96, 96, 96, 96, 95, 95, 95, 94, 94, 94, 94, 93, 93, 93]
+2023-05-26 14:23:37,323 Sparky's weigh-ins tripled: [300, 297, 297, 297, 297, 294, 291, 291, 291, 288, 288, 288, 288, 288, 285, 285, 285, 282, 282, 282, 282, 279, 279, 279]
+2023-05-26 14:23:37,323 Square roots of Sparky's weigh-ins: [10.0, 9.95, 9.95, 9.95, 9.95, 9.9, 9.85, 9.85, 9.85, 9.8, 9.8, 9.8, 9.8, 9.8, 9.75, 9.75, 9.75, 9.7, 9.7, 9.7, 9.7, 9.64, 9.64, 9.64].

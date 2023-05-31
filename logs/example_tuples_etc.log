@@ -1,0 +1,26 @@
+2023-05-25 14:55:27,571 =============================================================
+2023-05-25 14:55:27,571 =============================================================
+2023-05-25 14:55:27,571 Today is 2023-05-25 at 02:55 PM
+2023-05-25 14:55:27,608 This file is running on: nt Windows 10
+2023-05-25 14:55:27,608 The Python version is: 3.11.3
+2023-05-25 14:55:27,608 The active conda environment is:  None
+2023-05-25 14:55:27,608 The active pip environment is:    None
+2023-05-25 14:55:27,608 The active environment path is:   C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.1008.0_x64__qbz5n2kfra8p0
+2023-05-25 14:55:27,608 The current working directory is: C:\Users\bambe\Documents\44608_DataAnalyticsFundamentals\datafun-03-datatypes
+2023-05-25 14:55:27,608 This source file is in:           c:\Users\bambe\Documents\44608_DataAnalyticsFundamentals\datafun-03-datatypes\datafun-03-datatypes
+2023-05-25 14:55:27,608 =============================================================
+2023-05-25 14:55:27,608 =============================================================
+2023-05-25 14:55:27,608 Calling functions from main block
+2023-05-25 14:55:27,608 tupleA = (1, 2, 3, 4, 5)
+2023-05-25 14:55:27,608 tupleB = (4, 5, 6, 7, 8)
+2023-05-25 14:55:27,608 tupleA = (1, 2, 3, 4, 5)
+2023-05-25 14:55:27,608 tupleB = (4, 5, 6, 7, 8)
+2023-05-25 14:55:27,608 tupleCat = (1, 2, 3, 4, 5, 4, 5, 6, 7, 8)
+2023-05-25 14:55:27,608 tupleAThrice = (1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5)
+2023-05-25 14:55:27,609 Quotient: 3, Remainder: 1
+2023-05-25 14:55:27,609 setA = {1, 2, 3, 4, 5}
+2023-05-25 14:55:27,609 setB = {4, 5, 6, 7, 8}
+2023-05-25 14:55:27,609 dogA_dict = {'name': 'Rex', 'age': 2, 'weight_kg': 13.4}
+2023-05-25 14:55:27,609 dogB_dict = {'name': 'Fido', 'age': 3, 'weight_kg': 15.2}
+2023-05-25 14:55:27,609 assessment_dict = {'low': 0, 'medium': 1, 'high': 2}
+2023-05-25 14:55:27,609 data_dict = {'name': ['Alice', 'Bob', 'Charlie', 'David'], 'age': [25, 30, 35, 40], 'income': [50000, 60000, 70000, 80000]}

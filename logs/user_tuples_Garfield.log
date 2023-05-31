@@ -1,0 +1,30 @@
+2023-05-26 14:24:12,999 Below are the functions created for Module 3: Task 5
+2023-05-26 14:24:12,999 
+
+2023-05-26 14:24:12,999 EXAMPLES OF TUPLES
+2023-05-26 14:24:12,999 Tuple A = (12, 23, 34, 45, 56)
+2023-05-26 14:24:12,999 Tuple B = (49, 58, 67, 76, 85)
+2023-05-26 14:24:12,999 Tuples concatenated = (12, 23, 34, 45, 56, 49, 58, 67, 76, 85)
+2023-05-26 14:24:12,999 Tuple A times 3 = (12, 23, 34, 45, 56, 12, 23, 34, 45, 56, 12, 23, 34, 45, 56)
+2023-05-26 14:24:12,999 
+
+2023-05-26 14:24:12,999 TESTING TUPLES
+2023-05-26 14:24:12,999 Testing tuple membership with True: True
+2023-05-26 14:24:12,999 Testing tuple membership with False: False
+2023-05-26 14:24:12,999 My test tuple (1, 2, 3)
+2023-05-26 14:24:12,999 Testing tuple indexing: 1, 2, 3, 3
+2023-05-26 14:24:12,999 
+
+2023-05-26 14:24:12,999 EXAMPLES OF SETS
+2023-05-26 14:24:12,999 setA = {1, 2, 3, 4, 5}
+2023-05-26 14:24:12,999 setB = {4, 5, 6, 7, 8}
+2023-05-26 14:24:12,999 Let's show the possibilities with sets. Union: setA | setB = {1, 2, 3, 4, 5, 6, 7, 8}
+2023-05-26 14:24:12,999 Intersection of setA & setB = {4, 5}
+2023-05-26 14:24:12,999 Difference between setA - setB = {1, 2, 3}
+2023-05-26 14:24:12,999 This is the original set: ['dog', 'cat', 'bird', 'horse', 'dog', 'lizard']
+2023-05-26 14:24:12,999 This is a set example with no duplicates: [{'lizard', 'horse', 'bird', 'dog', 'cat'}].
+2023-05-26 14:24:12,999 
+
+2023-05-26 14:24:12,999 DICTIONARY EXAMPLES
+2023-05-26 14:24:12,999 My dogs in my Dog Dictionary = {'Honey': 'age 8', 'Archie': 'age 2'}.
+2023-05-26 14:24:12,999 Updated dog dictionary = {'Honey': 'age 8', 'Archie': 'age 2', 'Venus': 'age 8'}
