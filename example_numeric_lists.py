@@ -16,7 +16,7 @@ import math
 # import from local files
 from util_datafun_logger import setup_logger
 
-# Set up logging .............................................
+# Set up logging 
 
 # Call the setup_logger function
 logger, logname = setup_logger(__file__)
